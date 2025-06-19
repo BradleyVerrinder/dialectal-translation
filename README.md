@@ -8,7 +8,7 @@ Registered users can log in to use the translator, view previous translations, a
 
 ## 📸 Preview
 
-![Screenshot of the Darija to English Translator Web App](Darija WebApp Proof.png)
+![Screenshot of the Darija to English Translator Web App](Darija_WebApp_Proof.png)
 
 ---
 
