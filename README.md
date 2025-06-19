@@ -17,8 +17,8 @@ Registered users can log in to use the translator, view previous translations, a
 - 🔐 **User Registration & Login**  
   Create an account and log in securely using Django's built-in authentication system.
 
-- 🌍 **Darija to English Translation**  
-  Translate Moroccan Arabic text to English using a trained NLP model.
+- 🌍 **Darija to English Translationa and vice versa**  
+  Switch between Morrocan Arabic to English and English to Moroccan Arabic translations using a trained NLP model.
 
 - 📜 **Translation History**  
   Logged-in users can view their previous translations.
