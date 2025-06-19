@@ -14,6 +14,8 @@ Registered users can log in to use the translator, view previous translations, a
 
 ## ✨ Features
 
+- 🧠 Utilises a Seq2Seq model with a LSTM (Long Short-Term Memory) encoder-decoder architecture.
+
 - 🔐 **User Registration & Login**  
   Create an account and log in securely using Django's built-in authentication system.
 
@@ -37,6 +39,15 @@ Registered users can log in to use the translator, view previous translations, a
 - **Model:** Pre-trained NLP model (DarijaBERT or similar)
 
 ---
+
+## 	📈 Performance
+
+Whilst some sentences are translated with 100% accuracy, it can be said that the translation accuracy of my models could use some improvement. In my dissertation, I came to the conclusion that training data and computational power were the main limiting factors which contributed to the lack of accuracy in the translations. I also found that the use of a transformer model would have significantly increased my chances of accurate translations due to their ability to use self-attention to directly model relationships between any two tokens regardless of their distance in the sequence. This would be especially beneficially in my project since I found accuracy diminished rapidly in longer sentences and towards the end of sentences.
+
+I trained my models on a set of 30.000 sentence pairs in English and Darija which is considered extremely low when comparing to other projects. For example Wu et al. (2016) demonstrated that the use of large datasets, such as 4.5 million sentence pairs resulted in 'state-of-the-art' performance when training neural machine translation systems. They claimed that using smaller datasets (less than 100,000 sentence pairs) models tend to become prone to overfitting and less accurate.
+
+**Source: Wu et al., 2016, “Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation**
+
 
 ## 🛠️ Getting Started
 
